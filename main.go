@@ -93,9 +93,9 @@ func xss (payload string){
 	   			check_result := strings.Contains(sb , payload)
 	   			// fmt.Println(check_result)
 	   			if check_result != false {
-	   				fmt.Println(InfoColor,":XSS FOUND")
+	   				fmt.Println(":XSS FOUND")
 	   			}else{
-	   				fmt.Println(ErrorColor,":Not Vulnerable:")
+	   				fmt.Println(":Not Vulnerable:")
 	   			}
 	}
 }
